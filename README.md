@@ -18,7 +18,7 @@ Machine Learning Models Used
 - **Random Forest Classifier**
 - **Naive Bayes Classifier**
 
-Best Model:** Logistic Regression  
+Best Model:** Random Forest Classifier  
 Best Accuracy:** Achieved high accuracy with balanced performance across both income classes.
 
 ---
@@ -42,7 +42,7 @@ Steps Performed
 4. **Model Training:**  
    Trained multiple classification algorithms on the dataset.
 5. **Model Evaluation:**  
-   Compared accuracy, precision, recall, and F1-score to determine the best-performing model.
+   Compared accuracy score,grid search cv and cross validation score to determine the best-performing model.
 
 ---
 
@@ -50,10 +50,10 @@ Model Comparison
 
 | Algorithm | Accuracy | Remarks |
 |------------|-----------|---------|
-| Logistic Regression | **Highest (Best Model)** | Balanced & interpretable |
+| Logistic Regression | High | Balanced & interpretable |
 | KNN Classifier | Moderate | Sensitive to scaling |
 | Decision Tree | High | Slightly overfitted |
-| Random Forest | High | Strong ensemble performance |
+| Random Forest | **Highest (Best Model)** | Strong ensemble performance |
 | Naive Bayes | Good | Works well with categorical data |
 
 ---
